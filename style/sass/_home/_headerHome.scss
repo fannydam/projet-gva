@@ -1,0 +1,94 @@
+.header {  
+    width: 100%;
+    height: 100vh;
+    background: url('./../../assets/images/header/headerHome.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    animation: fadeIn 0.5s ease-in-out;
+
+    &-title {
+        margin-top: -300px;
+        font-family: "heavyOblique";
+        font-size: 6.4vh;
+        width: calc(100vh - 8%);
+        color: white;
+        display: block;
+        line-height: 1em;
+
+        animation: fadeDown .8s ease 0.5s both;
+
+        }
+
+    &-btn-scroll {
+        border: none;
+        background-color: transparent;
+        font-family: "book";
+        text-decoration: none;
+        color: white;
+        font-size: 0.9em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+
+        animation: fadeDown 1s ease 0.8s both;
+        }
+    } 
+
+.arrow-down {
+    width: 15px;
+    margin-top: 110px;
+
+    animation: fadeUp 1s ease-out 0.8s both;
+}
+
+.square {
+
+    &-container {
+        width: calc(100vh - 85px);
+        height: calc(100vh - 30px);
+        padding-top: 60px;
+        }
+        
+    &-purple {
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(transparent calc(50vh - 45px),#7d146c calc(50vh - 44px));
+        }  
+    }
+
+    @keyframes fadeIn {
+        0%, 50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    @keyframes fadeDown {
+        0% {
+            opacity: 0;
+            transform: translate(0);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(100px);
+        }
+    } 
+
+    @keyframes fadeUp {
+        0% {
+            opacity: 0;
+            transform: translate(0);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(-20px);
+        }
+    }

@@ -1,0 +1,138 @@
+.contentPage {
+
+    &-title {
+        display: flex;
+        margin: 80px 80px 0 80px;
+
+        &-icon-container {
+            max-width: 70px;
+            max-height: 70px;
+            min-width: 70px;
+            min-height: 70px;
+            overflow: hidden;
+        }
+
+        &-icon {
+            width: 100%;
+            height: 100%;
+        }
+
+        &-text {
+            font-family: 'heavyOblique';
+            font-size: 2.8em;
+            padding-left: 40px;
+            width: 700px;
+        }
+    }
+
+    &-subtitle {
+        font-family: 'heavyOblique';
+        font-size: 1.8em;
+        color: $purpleGVA;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    &-subtitle2 {
+        font-family: 'demi';
+        font-size: 1.2em;
+    }
+
+    &-p {
+
+        &-title {
+            font-family: "heavyOblique";
+            font-size: 2.1em;
+            line-height: 1em;
+        }
+
+        &-container {
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 14%;
+            margin-right: 14%;
+        }
+
+        &-text {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+
+.btn {
+    &-container {
+        display: flex;
+        justify-content: end;
+        margin: 50px 0;
+    }
+
+    &-content {
+        width: 58px;
+        height: 58px;
+        border-radius: 50px;
+        text-decoration: none;
+
+        transition: .2s ease;
+        transform: translateY(0) 1s ease;
+    }
+
+    &-line1,
+    &-line2 {
+        width: 18px;
+        height: 2px;
+        background-color: white;
+        position: absolute;
+        top: 28px;
+        right: 20px;
+    }
+
+    &-line2 {
+        transform: rotate(90deg);
+    }
+
+    &-txt {
+        font-family: "heavyOblique";
+        color: white;
+        font-size: 1.2em;
+
+        height: 58px;
+        padding-top: 16px;
+        padding-left: 20px;
+        border-radius: 50px;
+
+        opacity: 0;
+        transition: .3s ease;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+.messageOk {
+    padding: 50px;
+    text-align: center;
+    font-family: 'heavyOblique';
+    font-size: 1.8em;
+}
+
+// RESPONSIVE CONTENT PAGE
+@media (max-width: 1023px) {
+    .contentPage {
+        &-title {
+            margin: 0;
+
+            &-text {
+                font-size: 2em;
+                padding-left: 20px;
+                padding-top: 10px;
+            }
+        }
+
+        &-p-container {
+            margin: 0;
+        }
+    }
+}

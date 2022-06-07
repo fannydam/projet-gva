@@ -1,0 +1,199 @@
+.bgImg {
+    &-company {
+        width: 100%;
+        /* height: 100vh; */
+        display: flex;
+        align-items: flex-end;
+
+        background: url('./../../assets/images/company/entreprise.jpeg') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.company-title {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -80px;
+    left: -200px;
+
+    &-icon {
+        background: $pinkGVA;
+    
+        &-inner {
+            width: 60px;
+            height: 60px;
+            background-color: $yellowGVA;
+            border-radius: 50%;
+            position: relative;
+            top: -55px;
+            left: -5px;
+        }
+    }
+}
+
+.form-inscription {
+    width: 55%;
+}
+
+.company-form-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.company-filiale {
+
+    &-bloc {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    &-input {
+        width: 100%;
+        font-family: 'heavyOblique';
+        font-size: 1.8em;
+    }
+
+    &-label {
+        color: $black;
+    }
+}
+
+.company-input {
+    margin-bottom: -30px;
+}
+
+.company-role-input {
+    border: none;
+    font-family: 'heavyOblique';
+    font-size: 1em;
+    width: 100px;
+}
+
+.company {
+
+    &-btn-submit {
+        display: block;
+        margin-top: -40px;
+        margin-right: 160px;
+
+        position: absolute;
+        transform: translateX(-200px);
+    }
+
+    &-btn-submit-txt {
+        position: absolute;
+        right: -40px;
+    }
+}
+
+.company-connection {
+    &-container {
+        width: 350px;
+        height: 350px;
+        overflow: hidden;
+
+        &::after {
+            content: "";
+            display: block;
+            padding-bottom: 100%;
+        }
+    }
+
+    &-bg {
+        width: 100%;
+        height: 100%;
+        background-color: $yellowGVA;
+    }
+
+    &-inner {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-color: $redGVA;
+        position: relative;
+        top: -400px;
+        right: -100px;
+    }
+
+    &-inscris {
+        font-size: 1.8em;
+        color: $white;
+        font-style: oblique;
+
+        content: "";
+        position: relative;
+        z-index: 1;
+
+        margin-top: -570px;
+        margin-left: 20px;
+    }
+
+    &-connecte {
+        font-family: 'heavyOblique';
+        font-size: 2.4em;
+        color: $purpleGVA;
+
+        content: "";
+        position: relative;
+        z-index: 1;
+        margin-left: 20px;
+        margin-top: 10px;
+
+        &:hover {
+            color: $pinkGVA;
+        }
+    }
+}
+
+// RESPONSIVE FILIALE PAGE
+@media (max-width: 1023px) {
+    .bgImg-company {
+        background: none;
+        width: 78%;
+        position: relative;
+
+        &::after {
+            content: "";
+            display: block;
+            padding-bottom: 100%;
+        }
+    }
+
+    .company {
+        &-title {
+            position: relative;
+            left: -20px;
+            top: 0px;
+        }
+
+        &-form-container {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: flex-end;
+            margin: 0;
+        }
+
+        &-connection-container {
+            position: relative;
+        }
+
+        &-filiale-input {
+            font-size: 1.4em;
+        }
+    }
+
+    .filiale-title {
+        position: relative;
+        top: 10%;
+    }
+
+    .form-inscription {
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 100px;
+    }
+}

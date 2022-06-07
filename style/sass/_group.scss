@@ -1,0 +1,209 @@
+// BLOCS GROUPE COMPLET
+.bloc-group {
+    width: 100%;
+    background-color: $black;
+    display: flex;
+    border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
+    margin-top: 200px;
+
+    &::after {
+        content: "";
+        /* display: block; */
+        padding-bottom: 50%;
+    }
+
+    &-in2 {
+        width: 50%;
+    }
+
+    &-titles {
+        width: 55%;
+        height: 100%;
+        padding-top: 50px;
+        margin-left: 200px;
+        color: $white;
+        font-family: "heavyOblique", sans-serif;
+    }
+
+    &-categories {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.title {
+    &-1 {
+        font-size: 10em;
+        padding-bottom: 10px;
+    }
+
+    &-2 {
+        font-size: 4em;
+        line-height: 1.1em;
+        padding-bottom: 30px;
+    }
+
+    &-3 {
+        font-size: 1.9em;
+        padding-bottom: 35px;
+    }
+}
+
+.categories {
+    width: 50%;
+    text-decoration: none;
+    background-color: $white;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+
+    &::after {
+        content: "";
+        padding-bottom: 100%;
+    }
+
+    &-txt {
+        display: inline-block;
+        font-family: "heavyOblique";
+        font-size: 2.2em;
+        color: $black;
+        width: 70%;
+        margin-left: 45px;
+    }
+
+    &-1 {
+        transition: all .2s ease-out;
+
+        &:hover {
+            background-color: $greenGVA;
+            color: white;
+            border: none;
+        }
+    }
+
+    &-2 {
+        transition: all .2s ease-out;
+
+        &:hover {
+            background-color: $redGVA;
+            color: white;
+            border: none;
+        }
+    }
+
+    &-3 {
+        transition: all .2s ease-out;
+
+        &:hover {
+            background-color: $pinkGVA;
+            color: white;
+            border: none;
+        }
+    }
+
+    &-4 {
+        transition: all .2s ease-out;
+
+        &:hover {
+            background-color: $yellowGVA;
+            color: white;
+            border: none;
+        }
+    }
+
+}
+
+
+
+
+.border-b {
+    border-bottom: 1px solid $black;
+}
+
+.border-l {
+    border-left: 1px solid $black;
+}
+
+
+// BLOCS GROUPE 3 CASES & 2 CASES
+.blocs-3cases-categories-txt {
+    font-size: 3em;
+}
+
+.blocs-2cases-categories-txt {
+    font-size: 4em;
+}
+
+.blocs-3cases,
+.blocs-2cases {
+    width: 100vw;
+    display: flex;
+    margin-top: 150px;
+
+    &-categories {
+        width: 50%;
+        text-decoration: none;
+        background-color: $white;
+
+        display: flex;
+        align-items: center;
+
+        border: 1px solid $black;
+
+        &::after {
+            content: "";
+            padding-bottom: 100%;
+        }
+
+        &-txt {
+            font-family: "heavyOblique";
+            color: $black;
+            width: 70%;
+            margin-left: 50px;
+        }
+
+        &-about {
+            transition: all .2s ease-out;
+
+            &:hover {
+                background-color: $greenGVA;
+                color: $white;
+                border: none;
+            }
+        }
+
+        &-activity {
+            transition: all .2s ease-out;
+
+            &:hover {
+                color: $white;
+                background-color: $redGVA;
+                border: none;
+            }
+        }
+
+        &-mission,
+        &-company,
+        &-candidate {
+            transition: all .2s ease-out;
+
+            &:hover {
+                background-color: $pinkGVA;
+                color: $white;
+                border: none;
+            }
+        }
+
+        &-gouvernance {
+            transition: all .2s ease-out;
+
+            &:hover {
+                background-color: $yellowGVA;
+                color: $white;
+                border: none;
+            }
+        }
+    }
+}

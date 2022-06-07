@@ -1,0 +1,102 @@
+$black : #000000;
+$purple : #7d146c;
+$white : #FFFFFF;
+
+.article {
+
+    &-right {
+        width: 45%;
+
+        &-direction {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+        }
+
+        &-title {
+            color: $black;
+            font-family: "lightOblique";
+            font-size: 1.1em;
+            line-height: 1.1em;
+            width: 80%;
+        }
+
+        &-img {
+            width: 100%;
+            height: auto;
+
+            display: block;
+            transition: transform 0.3s;
+        }
+    }
+
+    &-date {
+        font-family: "book";
+        font-size: 0.8em;
+        color: $purple;
+    }
+}
+
+.bloc {
+    &-img {
+        width: 40%;
+        height: auto;
+        position: relative;
+
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    &-date-title{
+        width: 60%;
+        height: auto;
+        margin-left: 20px;
+
+        &-mid {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            text-align: end;
+            margin-right: 20px;
+        }
+    }
+}
+
+.bloc-img:hover {
+    .article-right-img {
+        transform: scale(1.2);
+        transform-origin: 50% 50%;
+    }
+}
+
+/* .line {
+    width: 195px;
+    height: 2px;
+    background-color: $purple;
+    position: absolute;
+    z-index: 1;
+} */
+
+.fadeUp1 {
+    animation: fadeUp .5s ease .6s both;
+}
+
+.fadeUp2 {
+    animation: fadeUp .5s ease .7s both;
+}
+
+.fadeUp2 {
+    animation: fadeUp .5s ease .8s both;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

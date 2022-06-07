@@ -1,0 +1,35 @@
+.bgImg {
+    &-activity {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: flex-end;
+
+        background: url('./../../assets/images/header/activity.jpeg') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.contentPage-title-activity {
+    margin-bottom: 50px;
+}
+
+.activity-title-icon {
+    background: $redGVA;
+
+    &-inner {
+        width: 70px;
+        height: 70px;
+        background-color: $purpleGVA;
+        border-radius: 50%;
+        position: relative;
+        top: -70px;
+        right: -35px;
+    }
+}
+
+.img-fibrez {
+    width: 100vw;
+    height: auto;
+}

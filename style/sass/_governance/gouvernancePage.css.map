@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACK,AAAD,kBAAa,CAAC;EACV,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,QAAQ;EAErB,UAAU,EAAE,oDAAoD,CAAC,SAAS;EAC1E,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,MAAM;CAC9B",
+    "sources": [
+        "gouvernancePage.scss"
+    ],
+    "names": [],
+    "file": "gouvernancePage.css"
+}

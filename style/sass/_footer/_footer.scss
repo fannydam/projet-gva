@@ -1,0 +1,74 @@
+.footer {
+
+    display: flex;
+    color: $white;
+
+    &-bloc {
+        font-family: "book";
+        width: 25%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &::after {
+            content: "";
+            /* display: block; */
+            padding-bottom: 100%;
+        }
+
+        &-purple {
+            background-color: $purpleGVA;
+            text-align: center;
+
+            &-logo,
+            &-cp {
+                padding-bottom: 20px;
+            }
+        }
+
+        &-black {
+            background-color: $black;
+        }
+
+        &-grey {
+            background-color: $greyGVA;
+            text-align: center;
+        }
+
+        &-white {
+            margin: auto;
+        }
+    }
+
+    &-link {
+        color: $white;
+        text-decoration: none;
+
+        &-black {
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        &-underline:hover {
+            display: inline-block;
+            border-bottom: 1px solid $white;
+        }
+    }
+}
+
+.img-in {
+    width: 26px;
+    height: auto;
+}
+
+// RESPONSIVE FOOTER
+@media (max-width: 1023px) {
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        &-bloc {
+            width: 50%;
+        }
+    }
+}

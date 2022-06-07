@@ -1,0 +1,53 @@
+.bgImg {
+    &-connection {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: flex-end;
+
+        background: url('./../../assets/images/company/connexion.jpeg') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.connection {
+    &-section {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    &-img {
+        width: 45%;
+        height: 450px;
+        background-color: $pinkGVA;
+    }
+
+    &-contentPage-subtitle {
+        color: $black;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    &-form {
+        margin: 0;
+    }
+
+    &-form-container {
+        width: 45%;
+    }
+
+    &-title-icon {
+        background-color: $yellowGVA;
+    }
+
+    &-btn-submit {
+        margin-top: 110px;
+
+        &:hover {
+            width: 240px;
+        }
+    }
+}

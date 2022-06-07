@@ -1,0 +1,46 @@
+.account-main {
+    margin-bottom: 100px;
+}
+
+.account-info-container {
+    margin-top: 50px;
+}
+
+.account-info-bloc {
+    display: flex;
+}
+
+.account-subtitle {
+    font-family: 'heavyOblique';
+    font-size: 1.8em;
+    color: $purpleGVA;
+    width: 150px;
+}
+
+.account-text {
+    font-family: 'demi';
+    font-size: 1.4em;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.account-offers {
+    margin-bottom: 100px;
+}
+
+.account-btn-container {
+
+    margin-left: 0;
+
+    &:hover {
+    width: 250px;
+}
+}
+
+
+
+.account-btn-addOffer-text {
+    width: 500px;
+    font-size: 1em;
+    color: $purpleGVA;
+}

@@ -1,0 +1,25 @@
+.bgImg {
+    &-candidate {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: flex-end;
+
+        background: url('./../../assets/images/candidate/candidate.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.candidate {
+
+    &-main {
+        margin-bottom: 100px;
+    }
+
+    &-title {
+        font-family: 'heavyOblique';
+        font-size: 3em;
+        padding-left: 20px;
+    }
+}

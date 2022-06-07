@@ -1,0 +1,69 @@
+ul li {
+    list-style-type: none;
+}
+
+.article {
+
+    &-link {
+        text-decoration: none;
+    }
+
+    &-left {
+        width: 40%;
+        height: 100%;
+        
+        &-title {
+            color: black;
+            font-family: "heavyOblique";
+            font-size: 2em;
+            line-height: 1.1em;
+            width: 90%;
+            margin-top: 10px;
+            margin-bottom: 50px;
+            }
+
+        &-container-img {
+            display: inline-block;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }    
+
+        &-img {
+            width: 100%;
+            height: auto;
+
+            display: block;
+            transition: transform 0.3s;
+            }
+        }
+
+    &-date {
+        font-family: "book";
+        font-size: 0.8em;
+        color: #7d146c;
+    }
+
+}
+
+.article-left-container-img:hover {
+    .article-left-img {
+        transform: scale(1.2);
+        transform-origin: 50% 50%;
+    }
+}
+
+.fadeUp {
+    animation: fadeUp .5s ease .5s both;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

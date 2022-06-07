@@ -1,0 +1,19 @@
+.notFound {
+    &-section {
+        padding: 200px;
+        text-align: center;
+    }
+
+    &-text {
+        font-family: 'demi';
+        font-size: 5em;
+    }
+
+    &-btn {
+        background-color: transparent;
+        border: none;
+        color: $purple;
+        font-size: 1em;
+        cursor: pointer;
+    }
+}

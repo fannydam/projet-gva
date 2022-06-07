@@ -1,0 +1,21 @@
+<svg id="Composant_20_1" data-name="Composant 20 – 1" xmlns="http://www.w3.org/2000/svg" width="30" height="30.068" viewBox="0 0 30 30.068">
+  <g id="Groupe_300" data-name="Groupe 300" transform="translate(-9974 -239.966)">
+    <rect id="Rectangle_151" data-name="Rectangle 151" width="30" height="2" transform="translate(9974 254)" fill="#7d146c"/>
+    <rect id="Rectangle_220" data-name="Rectangle 220" width="30" height="2" transform="translate(9974 265)" fill="#7d146c"/>
+    <rect id="Rectangle_222" data-name="Rectangle 222" width="30" height="2" transform="translate(9974 243)" fill="#7d146c"/>
+    <g id="Groupe_299" data-name="Groupe 299" transform="translate(1.062)">
+      <g id="Ellipse_54" data-name="Ellipse 54" transform="translate(9986.877 239.966)" fill="#fff" stroke="#7d146c" stroke-width="2">
+        <circle cx="4.034" cy="4.034" r="4.034" stroke="none"/>
+        <circle cx="4.034" cy="4.034" r="3.034" fill="none"/>
+      </g>
+      <g id="Ellipse_55" data-name="Ellipse 55" transform="translate(9978.809 250.966)" fill="#fff" stroke="#7d146c" stroke-width="2">
+        <circle cx="4.034" cy="4.034" r="4.034" stroke="none"/>
+        <circle cx="4.034" cy="4.034" r="3.034" fill="none"/>
+      </g>
+      <g id="Ellipse_56" data-name="Ellipse 56" transform="translate(9989 261.966)" fill="#fff" stroke="#7d146c" stroke-width="2">
+        <circle cx="4.034" cy="4.034" r="4.034" stroke="none"/>
+        <circle cx="4.034" cy="4.034" r="3.034" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+.offer-text {
+    color: pink;
+    font-size: 2em;
+    padding-bottom: 30px;
+    font-style: oblique;
+    width: 300px;
+}
+
+.input {
+    &-file {
+        display: none;
+
+        &-text {
+            font-family: 'book';
+            font-size: .8em;
+            color: grey;
+        }
+    }
+
+    &-label {
+        cursor: pointer;
+        border-bottom: 1px solid grey;
+        padding-bottom: 10px;
+    }
+}
+
+.candidacy {
+    &-btn-submit {
+        margin-top: -50px;
+
+        &:hover {
+            width: 220px;   
+        }
+    }
+
+    &-input {
+        margin-bottom: 0px;
+    }
+
+    &-label {
+        margin-bottom: 10px;
+    }
+
+    &-textarea {
+        height: 340px;
+        margin-bottom: -2px;
+    }
+}
